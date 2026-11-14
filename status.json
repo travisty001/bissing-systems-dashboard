@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-14T16:49:43.482Z",
-  "publishedAt": "2026-11-14T16:50:08.015Z",
+  "checkedAt": "2026-11-14T16:59:43.694Z",
+  "publishedAt": "2026-11-14T17:00:01.651Z",
   "host": {
     "wifi": true,
     "gateway": true,
@@ -11,8 +11,8 @@
   },
   "rooms": {
     "basgall": {
-      "roku": false,
-      "identity": false,
+      "roku": true,
+      "identity": true,
       "remote": true,
       "breakfast": true,
       "qr": false
@@ -28,7 +28,7 @@
       "roku": false,
       "identity": false,
       "remote": false,
-      "breakfast": false,
+      "breakfast": true,
       "qr": true
     }
   }
