@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1b2926">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Bissing House · Systems Checker</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./dashboard.js" defer></script>
+</head>
+<body>
+<main class="shell">
+  <header class="masthead">
+    <div>
+      <div class="eyebrow">BISSING HOUSE / OPERATIONS</div>
+      <h1>Systems checker</h1>
+      <p class="subhead">AirBandB network and three-room equipment overview</p>
+    </div>
+    <div class="header-actions">
+      <button id="refresh" class="primary" type="button">Refresh status</button>
+    </div>
+  </header>
+  <p id="message" class="notice" role="status" aria-live="polite">Loading latest published checks…</p>
+  <section aria-label="Network overview">
+    <div class="section-heading"><h2>Network &amp; services</h2><span id="checked-at" class="muted">—</span></div>
+    <div class="overview">
+      <div class="stat"><div class="stat-label">Omarchy / AirBandB</div><div id="wifi-state" class="stat-value">—</div><div id="wifi-detail" class="stat-detail">Connection</div></div>
+      <div class="stat"><div class="stat-label">Guest network gateway</div><div id="gateway-state" class="stat-value">—</div><div id="gateway-detail" class="stat-detail">Network reachability</div></div>
+      <div class="stat"><div class="stat-label">Guest remote service</div><div id="remote-state" class="stat-value">—</div><div id="remote-detail" class="stat-detail">Local service</div></div>
+      <div class="stat"><div class="stat-label">Motorola mobile test</div><div id="phone-state" class="stat-value">—</div><div id="phone-detail" class="stat-detail">Wireless check</div></div>
+      <div class="stat"><div class="stat-label">Roku connections</div><div id="rokus-state" class="stat-value">—</div><div id="rokus-detail" class="stat-detail">Room equipment</div></div>
+      <div class="stat"><div class="stat-label">DHCP reservations</div><div id="dhcp-state" class="stat-value">—</div><div id="dhcp-detail" class="stat-detail">Router confirmation</div></div>
+    </div>
+  </section>
+  <section class="room-panel" aria-label="Room checks">
+    <div class="room-heading">
+      <div><h2>Room check</h2><p class="muted">Select a room for its latest reported health.</p></div>
+      <label class="room-selector" for="room-select">Room <select id="room-select">
+        <option value="basgall">Basgall</option>
+        <option value="bissing">Bissing</option>
+        <option value="tearose">Tea Rose</option>
+      </select></label>
+    </div>
+    <div class="room-overview">
+      <div><div class="eyebrow">GUEST ROOM</div><div id="room-name" class="room-name">Basgall</div><div class="muted">Verified from the Omarchy checker</div></div>
+      <div id="room-health" class="room-health">Not checked</div>
+    </div>
+    <div id="room-checks" class="check-list" aria-live="polite"></div>
+    <p class="fine">Backdrop validation checks the saved local image and its two QR codes. It does not confirm which image the Roku currently displays.</p>
+  </section>
+  <div class="bottom-grid">
+    <section class="findings"><h2>Needs attention <span id="issue-count" class="count">—</span></h2><ul id="findings-list"><li>Awaiting published status.</li></ul></section>
+    <section class="activity"><h2>About these results</h2><ol>
+      <li>This is a read-only public snapshot, not a direct connection to local equipment.</li>
+      <li>Omarchy performs checks locally; a separate publish job sends only summarized pass/fail states.</li>
+      <li>No admin keys, Roku links, device IPs, hardware addresses, or private event logs are published.</li>
+      <li>To run checks immediately or open private tools, use the original checker on AirBandB.</li>
+    </ol></section>
+  </div>
+  <footer>Read-only monitoring · No remote commands or network changes from this website · Bissing House</footer>
+</main>
+</body>
+</html>
