@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-17T22:31:03.482Z",
-  "publishedAt": "2026-11-17T22:31:17.117Z",
+  "checkedAt": "2026-11-17T22:49:03.914Z",
+  "publishedAt": "2026-11-17T22:50:04.527Z",
   "host": {
     "wifi": true,
     "gateway": true,
@@ -14,7 +14,7 @@
       "roku": true,
       "identity": true,
       "remote": true,
-      "breakfast": false,
+      "breakfast": true,
       "qr": false
     },
     "bissing": {
@@ -22,13 +22,13 @@
       "identity": true,
       "remote": true,
       "breakfast": true,
-      "qr": false
+      "qr": true
     },
     "tearose": {
       "roku": true,
       "identity": true,
       "remote": true,
-      "breakfast": false,
+      "breakfast": true,
       "qr": true
     }
   }
