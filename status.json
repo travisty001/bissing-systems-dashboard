@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-17T20:09:00.073Z",
-  "publishedAt": "2026-11-17T20:10:00.956Z",
+  "checkedAt": "2026-11-17T20:20:00.203Z",
+  "publishedAt": "2026-11-17T20:20:12.437Z",
   "host": {
     "wifi": true,
     "gateway": true,
@@ -25,10 +25,10 @@
       "qr": true
     },
     "tearose": {
-      "roku": true,
-      "identity": true,
-      "remote": true,
-      "breakfast": true,
+      "roku": false,
+      "identity": false,
+      "remote": false,
+      "breakfast": false,
       "qr": true
     }
   }
