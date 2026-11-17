@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-17T12:59:46.843Z",
-  "publishedAt": "2026-11-17T13:00:03.950Z",
+  "checkedAt": "2026-11-17T13:09:47.082Z",
+  "publishedAt": "2026-11-17T13:10:12.962Z",
   "host": {
     "wifi": true,
     "gateway": true,
@@ -28,7 +28,7 @@
       "roku": false,
       "identity": false,
       "remote": false,
-      "breakfast": true,
+      "breakfast": false,
       "qr": true
     }
   }
