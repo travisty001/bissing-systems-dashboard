@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-18T20:59:18.149Z",
-  "publishedAt": "2026-11-18T21:00:03.414Z",
+  "checkedAt": "2026-11-18T21:10:18.318Z",
+  "publishedAt": "2026-11-18T21:10:43.883Z",
   "host": {
     "wifi": true,
-    "gateway": true,
+    "gateway": false,
     "remote": true,
     "phone": null,
     "dhcp": false
