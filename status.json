@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-18T15:29:12.440Z",
-  "publishedAt": "2026-11-18T15:30:05.088Z",
+  "checkedAt": "2026-11-18T15:39:12.605Z",
+  "publishedAt": "2026-11-18T15:40:01.388Z",
   "host": {
-    "wifi": false,
+    "wifi": true,
     "gateway": true,
     "remote": true,
     "phone": null,
@@ -11,25 +11,25 @@
   },
   "rooms": {
     "basgall": {
-      "roku": false,
-      "identity": false,
-      "remote": false,
+      "roku": true,
+      "identity": true,
+      "remote": true,
       "breakfast": true,
       "qr": false
     },
     "bissing": {
-      "roku": false,
-      "identity": false,
-      "remote": false,
+      "roku": true,
+      "identity": true,
+      "remote": true,
       "breakfast": true,
-      "qr": false
+      "qr": true
     },
     "tearose": {
       "roku": false,
       "identity": false,
       "remote": false,
       "breakfast": true,
-      "qr": false
+      "qr": true
     }
   }
 }
