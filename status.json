@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-18T02:39:08.636Z",
-  "publishedAt": "2026-11-18T02:40:12.315Z",
+  "checkedAt": "2026-11-18T02:50:08.787Z",
+  "publishedAt": "2026-11-18T02:50:32.788Z",
   "host": {
     "wifi": true,
     "gateway": true,
-    "remote": false,
+    "remote": true,
     "phone": null,
     "dhcp": false
   },
@@ -13,21 +13,21 @@
     "basgall": {
       "roku": true,
       "identity": true,
-      "remote": false,
+      "remote": true,
       "breakfast": true,
       "qr": false
     },
     "bissing": {
       "roku": true,
       "identity": true,
-      "remote": false,
+      "remote": true,
       "breakfast": true,
       "qr": true
     },
     "tearose": {
       "roku": true,
       "identity": true,
-      "remote": false,
+      "remote": true,
       "breakfast": true,
       "qr": true
     }
