@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-18T17:50:14.961Z",
-  "publishedAt": "2026-11-18T17:50:59.145Z",
+  "checkedAt": "2026-11-18T17:59:15.137Z",
+  "publishedAt": "2026-11-18T18:00:07.545Z",
   "host": {
-    "wifi": true,
-    "gateway": false,
+    "wifi": false,
+    "gateway": true,
     "remote": true,
     "phone": null,
     "dhcp": false
@@ -14,22 +14,22 @@
       "roku": false,
       "identity": false,
       "remote": false,
-      "breakfast": false,
+      "breakfast": true,
       "qr": false
     },
     "bissing": {
       "roku": false,
       "identity": false,
       "remote": false,
-      "breakfast": false,
-      "qr": true
+      "breakfast": true,
+      "qr": false
     },
     "tearose": {
       "roku": false,
       "identity": false,
       "remote": false,
-      "breakfast": false,
-      "qr": true
+      "breakfast": true,
+      "qr": false
     }
   }
 }
