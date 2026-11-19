@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-19T23:19:08.542Z",
-  "publishedAt": "2026-11-19T23:20:01.695Z",
+  "checkedAt": "2026-11-19T23:29:08.647Z",
+  "publishedAt": "2026-11-19T23:30:01.771Z",
   "host": {
     "wifi": true,
     "gateway": true,
     "remote": true,
-    "phone": false,
+    "phone": null,
     "dhcp": false
   },
   "rooms": {
